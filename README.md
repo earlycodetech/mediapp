@@ -34,6 +34,8 @@ About us: https://www.spirehealthcare.com/spire-parkway-hospital/patient-informa
 Teslim Bolaji
 Login page: https://myspire.spirehealthcare.com/
 
+Sir please post git command
+
 Busolami Seyetosin
 Home page B: https://www.spirehealthcare.com
 
