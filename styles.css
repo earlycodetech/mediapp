@@ -1,0 +1,84 @@
+.container {
+    width: 100%;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: 4%;
+    margin-left: 4%;
+    margin-top: 8%;
+    box-shadow:0 0 28px 0 rgb(0 0 0 / 20%) ;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+h2 {
+    line-height: 1.45;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    color: #008385;
+}
+
+.online-payment .sample-letter {
+    border: solid 1px #cfcfcf;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.online-payment ul.pay-label li {
+    color: #2b313e;
+    position: relative;
+    display: inline-block;
+    float: none;
+    text-align: left;
+}
+
+.mb-md-0, .my-md-0 {
+    margin-bottom: 0!important;
+}
+
+.online-payment .input-text {
+    border: 1px solid rgba(22,204,187,.51);
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+}
+.online-payment input {
+    height: 61px;
+    color: #4a4a4a;
+    padding: 8px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container-component--spacing {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.button {
+    position: relative;
+
+}
+
+.button--green-rounded {
+    padding: 11px 31px!important;
+    border-radius: 21.5px;
+    background-color: #008385;
+    color: #fff;
+    box-sizing: border-box;
+    border: 0;
+    line-height: 1;
+    display: inline-block;
+    padding: 7px 10px 8px 10px;
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
