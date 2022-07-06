@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.open{
+    
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px 7px 4px 7px;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    left: 10px;
+    overflow: hidden;
+      
+}
+.open:hover{
+    cursor: pointer;
+}
+.sidenav{
+    height: 70%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    left: 0;
+    overflow: hidden;
+  
+   
+}
+.sidenav a{
+    padding: 9px 9px 8px 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    transition: 0.3s;
+    color: whitesmoke;
+    
+}
+.sidenav a:hover{
+    color: wheat;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+#main{
+    transition: margin-left .5s;
+    padding: 20px;
+}
+.info{
+    margin-bottom: 0;
+}
+
+.info p{
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+
+}
+.info span{
+    text-decoration: underline ;
+
+}
+.testimonial{
+    display: grid;
+
+}
+img{
+    width: 100px;
+    border-radius: 100px;
+
+}
+
+.one{
+    padding: 5px;
+    background-color: white;
+    margin: 5px;
+    box-shadow:  0.5px 0.5px 0.5px inset rgb(233, 225, 225);
+}
+.one p{
+    padding-left: 15px ;
+    padding-right: 15px ;
+    flex-wrap: wrap;
+}
+
+
+
+@media screen and (max-height:450px){
+    .sidenav{padding-top: 15px;}
+    .sidenav a{font-size: 15px;}
+}
+@media screen and (min-height: 279px){
+    #main{
+        padding: 0;
+        
+    }
+    body{
+        margin-left:2px ;
+        margin-right: 2px;
+    }
+    
+}
