@@ -1,43 +1,43 @@
 SEETING UP IDENTITY
-add username:     git config --global user.name "your_username"
-add email:    git config --global user.email "your_email_address@example.com"
-check configuration:    git config --global --list
+add username:                 git config --global user.name "your_username"
+add email:                    git config --global user.email "your_email_address@example.com"
+check configuration:          git config --global --list
 Show files on staging area:   git ls-files
-Check status				git status
-Short Status				git status -s
+Check status:				          git status
+Short Status:				          git status -s
 
 ADDING FILES TO STAGING AREA
-Add one file:     git add file1.txt
-multiple files at once:			git add file1.txt file2.txt
+Add one file:                 git add file1.txt
+multiple files at once:			  git add file1.txt file2.txt
 all files with .txt ext:			git add *.txt 
-all files:			git add . 
+all files:			              git add . 
 
 UNSTAGING FILES
-Unstage a single file:			git restore --staged filename.ext
-Multiple file:				Same rules for multiple files
+Unstage a single file:			  git restore --staged filename.ext
+Multiple file:				        Same rules for multiple files
 
 COMMITTING
-With message:				git commit -m "message here"
+With message:				          git commit -m "message here"
 
 SHOWING COMMIT DETAILS
-Using identifier:			git show <unique id>
+Using identifier:			        git show <unique id>
 Using HEAD for most recent:		git show HEAD
 Using HEAD for previous:			git show HEAD~1 (1 indicates how many steps back)
 
 SHOWING HISTORY
-With details:				git log
-With one line:				git log --oneline
+With details:				          git log
+With one line:				        git log --oneline
 
 RESTORING TO A PREVIOUS VERSION
 Most recent version (one file): 	git restore --source=HEAD~1 filename.ext
 Most recent version (multiple): 	Same rules for multiple files
 
 ADD A REMOTE
-Add remote:			git remote add origin <giturl>
-Switch to main branch:			git branch -M main
+Add remote:			              git remote add origin <giturl>
+Switch to main branch:			  git branch -M main
 
-Push:			git push -u origin main
+Push:			                    git push -u origin main
 
-Pull:			git pull
+Pull:			                    git pull
 
 
