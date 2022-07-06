@@ -18,5 +18,7 @@
         </ul>
         <span>Login to MediApp </span>
     </nav>
+
+    <h1>Just a test</h1>
 </body>
 </html>
