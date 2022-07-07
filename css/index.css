@@ -1,0 +1,57 @@
+.carousel-caption {
+    top: 10%;
+    right: 60%;
+}
+.card{
+    border: 1px solid #125b50;
+    border-radius: 10px;
+    padding: 3em;
+    margin-right: 3em;
+    margin-bottom: 3em;
+    text-align: center;
+    margin:  1.5em 3em 1.5em;
+}
+.templates {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 60px 80px;
+    flex-wrap: wrap;
+    gap: 16px;
+   
+}
+.navbar-text {
+    background-color: white;
+    padding: 11px 18px;
+    border-radius: 20px;
+}
+.btn {
+    border-radius: 20px;
+    background-color: #308181;
+}
+.text {
+    font-weight: 10;
+}
+.text-2 {
+    font-weight: 10;
+}
+.text-3 {
+    font-weight: 10;
+}
+.text-2, .text-3{
+    text-align: center;
+}
+.card-3 {
+    height: 20rem;
+    width: 20rem;
+}
+.navbar-brand{
+    top: 50%;
+    right: 60%;
+}
+.navbar{
+    background-color:  #308181;
+}
+.btn-2{
+    color: #308181;
+}
