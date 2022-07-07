@@ -44,6 +44,17 @@ h2 {
     margin-bottom: 0!important;
 }
 
+.inner {
+    opacity: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+
 .online-payment .input-text {
     border: 1px solid rgba(22,204,187,.51);
     box-sizing: border-box;
