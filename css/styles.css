@@ -1,0 +1,210 @@
+.header{
+color: white;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.container{
+    background-color: darkseagreen;
+}
+
+.card{
+    background-color: white;
+    width: 50rem;
+    height: 60rem;
+    margin: auto;
+    border-radius: 10px;
+}
+
+body{
+    background-color: rgb(241, 250, 246);
+
+}
+
+.name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firstname{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.lastname{
+    position: relative;
+    left: 417px;
+    top: -80px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.firstlabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 203px;
+    bottom:2.5rem;
+}
+
+.lastlabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 490px;
+  bottom: 4.5rem;
+}
+
+.phone{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.phone1{
+    position: relative;
+    left: 200px;
+    bottom: 4.5rem;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.phone2{
+    position: relative;
+    left: 150px;
+   bottom: 4.5rem;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;   
+}
+
+.label1{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: -35px;
+    bottom:2.5rem;
+    top: -30px;
+}
+
+.label2{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 14px;
+    right: 90px;
+    top: -30px;
+    bottom:4.5rem;
+}
+
+.email{
+    position: relative;
+    left: 200px;
+    top: -50px;
+    line-height: 40px;
+    width: 480px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.password{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 125px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pass1{
+    position: relative;
+    left: 200px;
+    bottom: 4.5rem;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+
+}
+
+.pass2{
+    position: relative;
+    left: 150px;
+   bottom: 4.5rem;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.date{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.days{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.years{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+
+.address{
+    position: relative;
+    left: 200px;
+    top: -70px;
+    padding: 0 22px;
+    width: -60px;
+}
+
+a{
+    
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    background-color: rgb(243, 61, 85);
+    text-decoration: none;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 20px;
+}
+
+::placeholder{
+    color: darkseagreen;
+}
