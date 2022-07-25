@@ -37,12 +37,17 @@ $acct_type = 'patient';
 $now = new DateTime();
 $timestamp = $now->getTimestamp();
 
+//create card no
+$a = date('Y');
+$b = random_int(1000000,999999);
+$card_no = 'MA' . $a . $b;
+
 //INSERT RECORDS INTO DB
-$sql = "INSERT INTO users (firstname,lastname,phone,email,password,conaddress,gender,dob,acctype,timestamp) VALUES(?,?,?,?,?,?,?,?,?,?);";
+$sql = "INSERT INTO users (firstname,lastname,phone,email,password,conaddress,gender,dob,acctype,card_no,timestamp) VALUES(?,?,?,?,?,?,?,?,?,?,?);";
 
 $stmt = mysqli_stmt_init($db_connect);
 mysqli_stmt_prepare($stmt,$sql);
-mysqli_stmt_bind_param($stmt,'sssssssssi',$first_name,$last_name,$phone,$email,$password,$contact_add,$gender,$dob,$acct_type,$timestamp);
+mysqli_stmt_bind_param($stmt,'ssssssssssi',$first_name,$last_name,$phone,$email,$password,$contact_add,$gender,$dob,$acct_type,$card_no,$timestamp);
 
 if(mysqli_stmt_execute($stmt)){
     $_SESSION['success'] = 'Your registration was successful';
